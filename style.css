@@ -14,6 +14,7 @@
     position: fixed;
     width: 100%;
     z-index: 6;
+    padding-left: 100px;
    
     
 }
@@ -35,6 +36,7 @@ ul {
     list-style: none;
     margin-left: 170px;
     margin-top: 20px;
+    padding-left: 130px;
     
     
     
@@ -137,7 +139,9 @@ ul {
 
    
     
-    
+.change {
+    margin-left: -130px;
+}  
 
 
 
@@ -145,9 +149,10 @@ ul {
     display: flex;
     margin-right: 10%;
     height: 535px;
-    background-color: rgb(211, 172, 82);
+    background-color: rgb(255,254,247);
     /* gap: 10px; */
     width: 100%;
+    padding-left: 100px;
 }
 
 .section-items {
@@ -160,7 +165,7 @@ ul {
     margin-left: 20%;
     width: 490px;
     height: 254px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 13%;
     text-align: left;
     font-family: 'Poppins', sans-serif;
@@ -179,13 +184,15 @@ ul {
 .section-items:last-child img {
     width: 450px;
     
-    margin-top: 90px;
-    margin-left: -120%;
+    margin-top: 93px;
+    margin-left: -90%;
     
 }
 .section-items:first-child p {
     margin-left: 20%;
+    /* width: 400px; */
     line-height: 1.7;
+    padding-right: 70px;
     padding-top: 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
