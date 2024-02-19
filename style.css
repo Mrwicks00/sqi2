@@ -14,7 +14,7 @@
     position: fixed;
     width: 100%;
     z-index: 6;
-    padding-left: 100px;
+    padding: 0 8%;
    
     
 }
@@ -140,7 +140,7 @@ ul {
    
     
 .change {
-    margin: 0px -9%;
+    margin: 0 -9%;
     border: 2px solid red;
 }  
 
@@ -153,7 +153,7 @@ ul {
     background-color: rgb(255,254,247);
     /* gap: 10px; */
     /* width: 400px; */
-    padding-left: 100px;
+    padding: 0 8%;
 }
 
 .section-items {
